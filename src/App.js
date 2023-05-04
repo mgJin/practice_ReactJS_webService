@@ -10,9 +10,9 @@ import Screen from "./routes/Screen";
 function App(){
   
     return(
-        <Router>
+        <Router >
             <Switch>
-                <Route path="/movie/:id">
+                <Route path="/movie">
                     <Screen/>
                 </Route>
                 <Route path="/">
