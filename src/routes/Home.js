@@ -13,7 +13,7 @@ function Home(){
     setMovies(movies_json.data.movies);
     setLoading(false);
       };
-
+    // eslint-disable-next-line
     useEffect(()=>{
         getMovies()
         }
