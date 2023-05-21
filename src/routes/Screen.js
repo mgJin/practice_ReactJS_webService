@@ -1,5 +1,6 @@
 import {useParams} from "react-router-dom";
 import { useEffect} from "react";
+import { useState } from "react";
 function Screen(){
     const {id} = useParams();
     const getMovie = async ()=>{
@@ -12,6 +13,10 @@ function Screen(){
     useEffect(()=>{
        getMovie();
     },[]);
+
+
+
+
 
     return (
         <h1>Screen</h1>
